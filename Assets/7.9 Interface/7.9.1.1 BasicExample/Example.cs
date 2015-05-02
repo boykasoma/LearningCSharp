@@ -13,7 +13,7 @@ public class Example : MonoBehaviour {
 		//Zombie Z = new Zombie();
 		//Z.ThingName = "Zombie";
 		//print(Z.ThingName);
-		Zombie Z = (Zombie)gameObject.AddComponent("Zombie");
+		Zombie Z = gameObject.AddComponent<Zombie>();
 		Z.ThingName = "Zombie";
 		Z.SayHello();
 		print(Z.ThingName);

@@ -7,8 +7,8 @@ public class CallBackWWW : MonoBehaviour {
 	void Start () 
 	{
 		StartCoroutine (getWWW("http://localhost/Unity/readText.txt",readText));
-	//
-		StartCoroutine (getWWW("http://localhost/Unity/Clementine_albedo_simp750.jpg",readTexture));
+	
+		//StartCoroutine (getWWW("http://localhost/Unity/Clementine_albedo_simp750.jpg",readTexture));
 		
 	}
 
@@ -19,7 +19,7 @@ public class CallBackWWW : MonoBehaviour {
 	public void readTexture(WWW www)
 	{
 		Texture2D texture = www.texture;
-		gameObject.renderer.material.SetTexture("_MainTex",texture);
+		gameObject.GetComponent<Renderer>().material.SetTexture("_MainTex",texture);
 	}
 
 	IEnumerator getWWW(string url,delegateWWW funcWWW)
