@@ -1,26 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Pratice : MonoBehaviour {
+public class RecusionTYpe : MonoBehaviour
+{
 	GameObject a;
 	// Use this for initialization
 	void Start ()
 	{
+		//-----------------------------------------------------
 		a = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 		int id = 0;
 		a.name = "A_"+id.ToString();
 		// Rotation the parent first
-		 
+		
 		for (int i = 0; i < 3; i++)
 		{
 			id++;
-		
+			
 			GameObject b = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
 			b.name = "B_"+id.ToString();
 			a.transform.localEulerAngles = new Vector3(0,(360/3) * i,0);
 			b.transform.localPosition = new Vector3(6.0f,0,0);
 			b.transform.parent = a.transform;
-
+			
 			for(int j = 0; j < 5 ; j++)
 			{
 				id++;
@@ -30,7 +32,7 @@ public class Pratice : MonoBehaviour {
 				b.transform.localEulerAngles = new Vector3(0,(360/5) * j,0);
 				c.transform.localPosition = new Vector3(2.0f,0,0);
 				c.transform.parent = b.transform;
-
+				
 				for(int k = 0; k < 2 ; k++)
 				{
 					id++;
@@ -43,16 +45,28 @@ public class Pratice : MonoBehaviour {
 				}
 			}
 		}
-		ListHierachy(a);
+		//-----------------------------------------------
+		ArrayList myList = GetList (a);
+		foreach (GameObject go in myList)
+		{
+			Debug.Log(go.name);
+		}
+		//-----------------------------------------------------
+	}
+	
+	ArrayList GetList(GameObject go) 
+	{
+		ArrayList list = new ArrayList ();
+		BuildList (go, list);
+		return list;
 	}
 
-	void ListHierachy(GameObject go)
+	void BuildList(GameObject go,ArrayList l)
 	{
-		for (int i = 0; i < go.transform.childCount;i++)
-		{
-			GameObject g = go.transform.GetChild (i).gameObject;
-			Debug.Log(g.name);
-			ListHierachy(g);
+		l.Add (go);
+		for (int i = 0; i < go.transform.childCount;i++){
+			GameObject g = go.transform.GetChild(i).gameObject;
+			BuildList(g,l);
 		}
 	}
 
@@ -65,11 +79,12 @@ public class Pratice : MonoBehaviour {
 			RotationHierarchy(g);
 		}
 	}
-
+	
 	void Update()
 	{
 		RotationHierarchy (a);
 	}
-	
-	  
+
+
+
 }

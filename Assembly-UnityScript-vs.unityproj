@@ -46,7 +46,43 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\8.6 Recusion\8.6.1 A basic sample\NewBehaviourScript.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Action_Type_Effect.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Action_Type_Shrapnel.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Action_Type_SmokeTrails.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Action_Type_SpawnObject.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Arming.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Force.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Heat.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Impact.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Projectile.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Proximity.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Detonation_Type_Timer.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Explosion_Controller.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Explosion_Object.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Debris.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Gun.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Gunsight.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Label.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Magazine.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_Projectile.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\Object_SmokeTrail.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\sfx_Camera_Shake.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\sfx_Object_Sound.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\SCRIPTS\sfx_Object_Wind.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\_DEMO\scripts\DemoPlayerController.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\_DEMO\scripts\demo_TerrainHack.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\_DEMO\scripts\demo_UI.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\_DEMO\scripts\demo_characterAnimation.js" />
+     <Compile Include="Assets\TATAKAI - TACTICAL FX\_DEMO\terrain\TerrainHack.js" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_MuzzleFlash.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\_Tatakai_ReadMe.txt" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Particle Add.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_DiffSpecNormalSkin.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_SmokeBasicLit.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_gui_Gunsight.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_MuzzleFlash_orig.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_ExplosionBurn.shader" />
+     <None Include="Assets\TATAKAI - TACTICAL FX\SHADERS\Tatakai_SmokeTrail.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

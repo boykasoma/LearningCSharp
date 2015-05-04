@@ -83,7 +83,9 @@
      <Compile Include="Assets\7.9 Interface\7.9.5 Using IComparer\ExampleIcomparer.cs" />
      <Compile Include="Assets\8.3 Readability Optimizations and Idioms\8.3.1 Notation\SimpleNotation.cs" />
      <Compile Include="Assets\8.6 Recusion\8.6.3 In Priatice\Pratice.cs" />
+     <Compile Include="Assets\8.6 Recusion\8.6.4 Recusion Type\RecusionTYpe.cs" />
      <Compile Include="Assets\8.6 Recusion\SimpleRecusion.cs" />
+     <Compile Include="Assets\8.7 Reflection\BasicReflection.cs" />
      <Compile Include="Assets\LightState.cs" />
      <Compile Include="Assets\TestLevel\Levels.cs" />
  <Reference Include="UnityEngine.UI">

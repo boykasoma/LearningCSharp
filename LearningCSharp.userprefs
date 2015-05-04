@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\8.6 Recusion\8.6.3 In Priatice\Pratice.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\8.7 Reflection\BasicReflection.cs">
     <Files>
-      <File FileName="Assets\8.6 Recusion\SimpleRecusion.cs" Line="67" Column="3" />
-      <File FileName="Assets\8.6 Recusion\8.6.3 In Priatice\Pratice.cs" Line="71" Column="25" />
+      <File FileName="Assets\8.7 Reflection\BasicReflection.cs" Line="15" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
